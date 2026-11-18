@@ -1,0 +1,118 @@
+{
+  "v": 1,
+  "start": "2026-12-05",
+  "end": "2026-12-18",
+  "budget": {
+    "total": 6000,
+    "cats": [
+      { "id": "stay", "amount": 1800, "note": { "en": "13 nights · Plateau apartment", "fr": "13 nuits · appartement au Plateau" } },
+      { "id": "food", "amount": 980, "note": { "en": "Markets, bagels, a few nice dinners", "fr": "Marchés, bagels, quelques beaux soupers" } },
+      { "id": "transport", "amount": 520, "note": { "en": "Transit pass · VIA Rail to Québec City · Tremblant shuttle", "fr": "Passe STM · VIA Rail vers Québec · navette Tremblant" } },
+      { "id": "activities", "amount": 420, "note": { "en": "Museums, Biodôme, Bota Bota, skate rental", "fr": "Musées, Biodôme, Bota Bota, location de patins" } }
+    ]
+  },
+  "todos": [
+    { "id": "t1", "label": { "en": "Book flights to YUL", "fr": "Réserver les vols vers YUL" }, "when": { "en": "Done", "fr": "Fait" }, "done": true },
+    { "id": "t2", "label": { "en": "Reserve Plateau apartment", "fr": "Réserver l’appartement au Plateau" }, "when": { "en": "Done", "fr": "Fait" }, "done": true },
+    { "id": "t3", "label": { "en": "Book VIA Rail to Québec City", "fr": "Réserver VIA Rail vers Québec" }, "when": { "en": "Dec 12", "fr": "12 déc." }, "done": false },
+    { "id": "t4", "label": { "en": "Buy winter boots", "fr": "Acheter des bottes d’hiver" }, "when": { "en": "This week", "fr": "Cette semaine" }, "done": false }
+  ],
+  "packing": [
+    { "id": "p1", "group": "layers", "label": { "en": "Insulated parka", "fr": "Parka isolé" }, "done": true },
+    { "id": "p2", "group": "layers", "label": { "en": "Waterproof winter boots", "fr": "Bottes d’hiver imperméables" }, "done": false },
+    { "id": "p3", "group": "layers", "label": { "en": "Thermal base layers", "fr": "Sous-vêtements thermiques" }, "done": false },
+    { "id": "p4", "group": "layers", "label": { "en": "Toque, scarf & mitts", "fr": "Tuque, foulard et mitaines" }, "done": true },
+    { "id": "p5", "group": "docs", "label": { "en": "Passport / eTA", "fr": "Passeport / AVE" }, "done": false },
+    { "id": "p6", "group": "docs", "label": { "en": "Travel insurance", "fr": "Assurance voyage" }, "done": false },
+    { "id": "p7", "group": "docs", "label": { "en": "Type A/B plug adapter", "fr": "Adaptateur prise A/B" }, "done": false },
+    { "id": "p8", "group": "docs", "label": { "en": "Offline maps downloaded", "fr": "Cartes hors ligne téléchargées" }, "done": false }
+  ],
+  "days": [
+    { "kind": "city", "area": { "en": "Plateau", "fr": "Plateau" }, "title": { "en": "Arrive & settle in", "fr": "Arrivée et installation" }, "stops": [
+      { "id": "s1a", "time": "15:00", "tag": "move", "name": { "en": "Land at YUL", "fr": "Arrivée à YUL" }, "note": { "en": "747 bus or taxi to the Plateau · ~45 min", "fr": "Bus 747 ou taxi vers le Plateau · ~45 min" }, "done": false },
+      { "id": "s1b", "time": "17:00", "tag": "move", "name": { "en": "Check in at the apartment", "fr": "Arrivée à l’appartement" }, "note": { "en": "[YOUR ADDRESS]", "fr": "[VOTRE ADRESSE]" }, "done": false },
+      { "id": "s1c", "time": "19:30", "tag": "food", "name": { "en": "Dinner at L’Express", "fr": "Souper à L’Express" }, "note": { "en": "Classic bistro on Saint-Denis · reserve ahead", "fr": "Bistro classique sur Saint-Denis · réservez" }, "done": false }
+    ]},
+    { "kind": "city", "area": { "en": "Old Montréal", "fr": "Vieux-Montréal" }, "title": { "en": "Cobblestones & the Basilica", "fr": "Pavés et basilique" }, "stops": [
+      { "id": "s2a", "time": "09:00", "tag": "food", "name": { "en": "Olive et Gourmando", "fr": "Olive et Gourmando" }, "note": { "en": "Pastries & coffee · arrive early, it fills up", "fr": "Viennoiseries et café · arrivez tôt" }, "done": false },
+      { "id": "s2b", "time": "10:30", "tag": "place", "name": { "en": "Notre-Dame Basilica", "fr": "Basilique Notre-Dame" }, "note": { "en": "Self-guided visit · ~1 h · tickets online", "fr": "Visite libre · ~1 h · billets en ligne" }, "done": false },
+      { "id": "s2c", "time": "12:00", "tag": "walk", "name": { "en": "Place Jacques-Cartier & Rue St-Paul", "fr": "Place Jacques-Cartier et rue Saint-Paul" }, "note": { "en": "Galleries, Bonsecours Market", "fr": "Galeries, Marché Bonsecours" }, "done": false },
+      { "id": "s2d", "time": "14:30", "tag": "activity", "name": { "en": "Old Port skating rink", "fr": "Patinoire du Vieux-Port" }, "note": { "en": "Skate rental on site · weather permitting", "fr": "Location de patins sur place · selon la météo" }, "done": false },
+      { "id": "s2e", "time": "19:00", "tag": "food", "name": { "en": "Dinner in Old Montréal", "fr": "Souper dans le Vieux-Montréal" }, "note": { "en": "[YOUR RESERVATION]", "fr": "[VOTRE RÉSERVATION]" }, "done": false }
+    ]},
+    { "kind": "city", "area": { "en": "Mount Royal", "fr": "Mont-Royal" }, "title": { "en": "Up the mountain", "fr": "À l’assaut de la montagne" }, "stops": [
+      { "id": "s3a", "time": "10:00", "tag": "walk", "name": { "en": "Hike up from Peel Street", "fr": "Montée par la rue Peel" }, "note": { "en": "Stairs to the summit · wear boots with grip", "fr": "Escaliers vers le sommet · bottes antidérapantes" }, "done": false },
+      { "id": "s3b", "time": "11:00", "tag": "place", "name": { "en": "Kondiaronk Belvedere", "fr": "Belvédère Kondiaronk" }, "note": { "en": "The postcard view over downtown", "fr": "La vue carte postale sur le centre-ville" }, "done": false },
+      { "id": "s3c", "time": "12:30", "tag": "activity", "name": { "en": "Beaver Lake", "fr": "Lac aux Castors" }, "note": { "en": "Skating or tubing when frozen · chalet café", "fr": "Patin ou glissade si gelé · café au chalet" }, "done": false },
+      { "id": "s3d", "time": "15:00", "tag": "place", "name": { "en": "Saint Joseph’s Oratory", "fr": "Oratoire Saint-Joseph" }, "note": { "en": "Bus 166 over the mountain · ~1.5 h visit", "fr": "Bus 166 par la montagne · visite ~1 h 30" }, "done": false }
+    ]},
+    { "kind": "food", "area": { "en": "Mile End", "fr": "Mile End" }, "title": { "en": "Bagels & markets", "fr": "Bagels et marchés" }, "stops": [
+      { "id": "s4a", "time": "09:00", "tag": "food", "name": { "en": "St-Viateur Bagel", "fr": "St-Viateur Bagel" }, "note": { "en": "Sesame, still warm", "fr": "Sésame, encore chaud" }, "done": false },
+      { "id": "s4b", "time": "09:30", "tag": "food", "name": { "en": "Fairmount Bagel", "fr": "Fairmount Bagel" }, "note": { "en": "Pick your side of the debate", "fr": "Choisissez votre camp" }, "done": false },
+      { "id": "s4c", "time": "11:00", "tag": "place", "name": { "en": "Jean-Talon Market", "fr": "Marché Jean-Talon" }, "note": { "en": "Indoor halls in winter · maple treats", "fr": "Halles intérieures l’hiver · produits de l’érable" }, "done": false },
+      { "id": "s4d", "time": "13:30", "tag": "food", "name": { "en": "Schwartz’s Deli", "fr": "Schwartz’s" }, "note": { "en": "Smoked meat · expect a line", "fr": "Smoked meat · prévoyez la file" }, "done": false },
+      { "id": "s4e", "time": "15:00", "tag": "walk", "name": { "en": "Boulevard Saint-Laurent", "fr": "Boulevard Saint-Laurent" }, "note": { "en": "Shops, murals and cafés", "fr": "Boutiques, murales et cafés" }, "done": false }
+    ]},
+    { "kind": "city", "area": { "en": "Downtown", "fr": "Centre-ville" }, "title": { "en": "Museum day", "fr": "Journée musées" }, "stops": [
+      { "id": "s5a", "time": "10:00", "tag": "place", "name": { "en": "Montréal Museum of Fine Arts", "fr": "Musée des beaux-arts de Montréal" }, "note": { "en": "Plan 2–3 h", "fr": "Prévoyez 2 à 3 h" }, "done": false },
+      { "id": "s5b", "time": "14:00", "tag": "place", "name": { "en": "McCord Stewart Museum", "fr": "Musée McCord Stewart" }, "note": { "en": "Montréal history & fashion", "fr": "Histoire et mode de Montréal" }, "done": false },
+      { "id": "s5c", "time": "16:30", "tag": "walk", "name": { "en": "Underground City (RÉSO)", "fr": "Ville souterraine (RÉSO)" }, "note": { "en": "Stay warm between malls and metro", "fr": "Au chaud entre centres commerciaux et métro" }, "done": false }
+    ]},
+    { "kind": "city", "area": { "en": "Olympic Park", "fr": "Parc olympique" }, "title": { "en": "Biodôme & Planetarium", "fr": "Biodôme et Planétarium" }, "stops": [
+      { "id": "s6a", "time": "10:00", "tag": "place", "name": { "en": "Biodôme", "fr": "Biodôme" }, "note": { "en": "Four ecosystems under one roof", "fr": "Quatre écosystèmes sous un même toit" }, "done": false },
+      { "id": "s6b", "time": "13:30", "tag": "place", "name": { "en": "Rio Tinto Alcan Planetarium", "fr": "Planétarium Rio Tinto Alcan" }, "note": { "en": "Book a show time", "fr": "Réservez une séance" }, "done": false },
+      { "id": "s6c", "time": "15:30", "tag": "activity", "name": { "en": "Montréal Tower observatory", "fr": "Observatoire de la Tour de Montréal" }, "note": { "en": "Check winter hours", "fr": "Vérifiez l’horaire d’hiver" }, "done": false }
+    ]},
+    { "kind": "food", "area": { "en": "Old Port", "fr": "Vieux-Port" }, "title": { "en": "Spa & slow evening", "fr": "Spa et soirée tranquille" }, "stops": [
+      { "id": "s7a", "time": "11:00", "tag": "activity", "name": { "en": "Bota Bota floating spa", "fr": "Spa flottant Bota Bota" }, "note": { "en": "Thermal circuit on a boat · book ahead", "fr": "Circuit thermal sur un bateau · réservez" }, "done": false },
+      { "id": "s7b", "time": "16:00", "tag": "walk", "name": { "en": "Old Port waterfront", "fr": "Promenade du Vieux-Port" }, "note": { "en": "Sunset is around 4:15 pm", "fr": "Coucher du soleil vers 16 h 15" }, "done": false },
+      { "id": "s7c", "time": "19:00", "tag": "food", "name": { "en": "Dinner in Griffintown", "fr": "Souper à Griffintown" }, "note": { "en": "[YOUR RESERVATION]", "fr": "[VOTRE RÉSERVATION]" }, "done": false }
+    ]},
+    { "kind": "trip", "area": { "en": "Day trip", "fr": "Excursion" }, "title": { "en": "Québec City", "fr": "Québec" }, "stops": [
+      { "id": "s8a", "time": "08:00", "tag": "move", "name": { "en": "VIA Rail from Central Station", "fr": "VIA Rail depuis la Gare Centrale" }, "note": { "en": "About 3 h 15", "fr": "Environ 3 h 15" }, "done": false },
+      { "id": "s8b", "time": "12:00", "tag": "walk", "name": { "en": "Old Québec", "fr": "Vieux-Québec" }, "note": { "en": "Walk the walls and Rue Saint-Jean", "fr": "Les fortifications et la rue Saint-Jean" }, "done": false },
+      { "id": "s8c", "time": "14:30", "tag": "place", "name": { "en": "Château Frontenac & Terrasse Dufferin", "fr": "Château Frontenac et Terrasse Dufferin" }, "note": { "en": "Toboggan slide in winter", "fr": "Glissoire en hiver" }, "done": false },
+      { "id": "s8d", "time": "16:30", "tag": "walk", "name": { "en": "Quartier Petit-Champlain", "fr": "Quartier Petit-Champlain" }, "note": { "en": "Holiday lights · overnight at [YOUR HOTEL]", "fr": "Lumières des fêtes · nuit à [VOTRE HÔTEL]" }, "done": false }
+    ]},
+    { "kind": "trip", "area": { "en": "Day trip", "fr": "Excursion" }, "title": { "en": "Québec City → Montréal", "fr": "Québec → Montréal" }, "stops": [
+      { "id": "s9a", "time": "10:00", "tag": "walk", "name": { "en": "Plains of Abraham", "fr": "Plaines d’Abraham" }, "note": { "en": "Snowy park above the river", "fr": "Parc enneigé au-dessus du fleuve" }, "done": false },
+      { "id": "s9b", "time": "13:00", "tag": "place", "name": { "en": "Montmorency Falls", "fr": "Chute Montmorency" }, "note": { "en": "Taller than Niagara · ~20 min drive", "fr": "Plus haute que Niagara · ~20 min en auto" }, "done": false },
+      { "id": "s9c", "time": "18:00", "tag": "move", "name": { "en": "Train back to Montréal", "fr": "Train de retour à Montréal" }, "note": { "en": "Dinner on board", "fr": "Souper à bord" }, "done": false }
+    ]},
+    { "kind": "food", "area": { "en": "Little Italy", "fr": "Petite-Italie" }, "title": { "en": "Market crawl", "fr": "Tournée des marchés" }, "stops": [
+      { "id": "s10a", "time": "10:00", "tag": "food", "name": { "en": "Atwater Market", "fr": "Marché Atwater" }, "note": { "en": "Cheese, bread, maple taffy", "fr": "Fromages, pain, tire d’érable" }, "done": false },
+      { "id": "s10b", "time": "11:30", "tag": "walk", "name": { "en": "Lachine Canal walk", "fr": "Promenade du canal de Lachine" }, "note": { "en": "Flat path along the canal", "fr": "Sentier plat le long du canal" }, "done": false },
+      { "id": "s10c", "time": "15:00", "tag": "food", "name": { "en": "Café Italia, Little Italy", "fr": "Café Italia, Petite-Italie" }, "note": { "en": "Espresso stop", "fr": "Pause espresso" }, "done": false }
+    ]},
+    { "kind": "trip", "area": { "en": "Laurentians", "fr": "Laurentides" }, "title": { "en": "Mont-Tremblant", "fr": "Mont-Tremblant" }, "stops": [
+      { "id": "s11a", "time": "07:30", "tag": "move", "name": { "en": "Shuttle or car to Tremblant", "fr": "Navette ou auto vers Tremblant" }, "note": { "en": "About 1 h 45", "fr": "Environ 1 h 45" }, "done": false },
+      { "id": "s11b", "time": "10:00", "tag": "activity", "name": { "en": "Ski or snowshoe", "fr": "Ski ou raquette" }, "note": { "en": "Rentals at the base", "fr": "Location au pied des pentes" }, "done": false },
+      { "id": "s11c", "time": "16:00", "tag": "walk", "name": { "en": "Pedestrian village", "fr": "Village piétonnier" }, "note": { "en": "Free gondola between levels", "fr": "Télécabine gratuite entre les niveaux" }, "done": false }
+    ]},
+    { "kind": "city", "area": { "en": "Saint-Henri", "fr": "Saint-Henri" }, "title": { "en": "Neighbourhood day", "fr": "Journée de quartier" }, "stops": [
+      { "id": "s12a", "time": "10:30", "tag": "food", "name": { "en": "Notre-Dame West cafés", "fr": "Cafés de Notre-Dame Ouest" }, "note": { "en": "Slow brunch", "fr": "Brunch tranquille" }, "done": false },
+      { "id": "s12b", "time": "13:00", "tag": "walk", "name": { "en": "Vintage & design shops", "fr": "Friperies et boutiques de design" }, "note": { "en": "Along Notre-Dame West", "fr": "Le long de Notre-Dame Ouest" }, "done": false },
+      { "id": "s12c", "time": "21:00", "tag": "activity", "name": { "en": "Jazz at Upstairs", "fr": "Jazz au Upstairs" }, "note": { "en": "Downtown jazz club · reserve a table", "fr": "Club de jazz au centre-ville · réservez" }, "done": false }
+    ]},
+    { "kind": "food", "area": { "en": "Plateau", "fr": "Plateau" }, "title": { "en": "Last favourites", "fr": "Derniers coups de cœur" }, "stops": [
+      { "id": "s13a", "time": "11:00", "tag": "walk", "name": { "en": "Souvenirs on Saint-Denis", "fr": "Souvenirs rue Saint-Denis" }, "note": { "en": "Local designers and bookshops", "fr": "Créateurs locaux et librairies" }, "done": false },
+      { "id": "s13b", "time": "15:00", "tag": "activity", "name": { "en": "Skating at Parc La Fontaine", "fr": "Patin au parc La Fontaine" }, "note": { "en": "Free outdoor rink", "fr": "Patinoire extérieure gratuite" }, "done": false },
+      { "id": "s13c", "time": "19:00", "tag": "food", "name": { "en": "Poutine at La Banquise", "fr": "Poutine à La Banquise" }, "note": { "en": "Open late", "fr": "Ouvert tard" }, "done": false }
+    ]},
+    { "kind": "city", "area": { "en": "Departure", "fr": "Départ" }, "title": { "en": "Brunch & fly home", "fr": "Brunch et vol retour" }, "stops": [
+      { "id": "s14a", "time": "10:00", "tag": "food", "name": { "en": "Brunch at Café Olimpico", "fr": "Brunch au Café Olimpico" }, "note": { "en": "Last latte in Mile End", "fr": "Dernier latte dans le Mile End" }, "done": false },
+      { "id": "s14b", "time": "12:30", "tag": "move", "name": { "en": "Pack & check out", "fr": "Bagages et départ" }, "note": { "en": "Leave the keys", "fr": "Laissez les clés" }, "done": false },
+      { "id": "s14c", "time": "14:00", "tag": "move", "name": { "en": "Head to YUL", "fr": "Direction YUL" }, "note": { "en": "747 bus or taxi · [YOUR FLIGHT]", "fr": "Bus 747 ou taxi · [VOTRE VOL]" }, "done": false }
+    ]}
+  ],
+  "places": [
+    { "id": "pl1", "cat": "food", "tag": "food", "name": { "en": "Jean-Talon Market", "fr": "Marché Jean-Talon" }, "meta": { "en": "Little Italy · Market · Indoor halls in winter", "fr": "Petite-Italie · Marché · Halles intérieures l’hiver" } },
+    { "id": "pl2", "cat": "food", "tag": "food", "name": { "en": "St-Viateur Bagel", "fr": "St-Viateur Bagel" }, "meta": { "en": "Mile End · Open 24 h", "fr": "Mile End · Ouvert 24 h" } },
+    { "id": "pl3", "cat": "culture", "tag": "place", "name": { "en": "Montréal Museum of Fine Arts", "fr": "Musée des beaux-arts de Montréal" }, "meta": { "en": "Downtown · Museum · 2–3 h", "fr": "Centre-ville · Musée · 2 à 3 h" } },
+    { "id": "pl4", "cat": "outdoors", "tag": "activity", "name": { "en": "Beaver Lake skating", "fr": "Patin au Lac aux Castors" }, "meta": { "en": "Mount Royal · Outdoor rink · Seasonal", "fr": "Mont-Royal · Patinoire extérieure · Saisonnier" } },
+    { "id": "pl5", "cat": "culture", "tag": "place", "name": { "en": "Pointe-à-Callière Museum", "fr": "Musée Pointe-à-Callière" }, "meta": { "en": "Old Montréal · Archaeology · 2 h", "fr": "Vieux-Montréal · Archéologie · 2 h" } },
+    { "id": "pl6", "cat": "food", "tag": "food", "name": { "en": "Schwartz’s Deli", "fr": "Schwartz’s" }, "meta": { "en": "Plateau · Smoked meat · Expect a line", "fr": "Plateau · Smoked meat · Prévoyez la file" } },
+    { "id": "pl7", "cat": "outdoors", "tag": "activity", "name": { "en": "Parc La Fontaine rink", "fr": "Patinoire du parc La Fontaine" }, "meta": { "en": "Plateau · Free outdoor rink", "fr": "Plateau · Patinoire extérieure gratuite" } },
+    { "id": "pl8", "cat": "culture", "tag": "place", "name": { "en": "Montréal Botanical Garden", "fr": "Jardin botanique de Montréal" }, "meta": { "en": "Olympic Park area · Greenhouses open in winter", "fr": "Secteur du Parc olympique · Serres ouvertes l’hiver" } }
+  ]
+}
